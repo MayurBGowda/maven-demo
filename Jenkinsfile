@@ -3,11 +3,7 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/MayurBGowda/maven-demo.git'
-            }
-        }
+        
 
         stage('Build') {
             steps {
